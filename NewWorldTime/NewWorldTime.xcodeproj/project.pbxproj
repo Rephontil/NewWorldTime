@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AA200203F2588A9F472E9AE /* libPods-NewWorldTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 251866AC1FA542DD92BC927A /* libPods-NewWorldTime.a */; };
 		8E17CDB41DDC991900F51ED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17CDB31DDC991900F51ED7 /* main.m */; };
 		8E17CDB71DDC991900F51ED7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17CDB61DDC991900F51ED7 /* AppDelegate.m */; };
 		8E17CDBD1DDC991900F51ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E17CDBB1DDC991900F51ED7 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 		8E17CDF41DDCA67000F51ED7 /* ZYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17CDF31DDCA67000F51ED7 /* ZYTabBarController.m */; };
 		8E4F57B31DDCAEC9004A0990 /* UIImage+ZYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F57B21DDCAEC9004A0990 /* UIImage+ZYImage.m */; };
 		8E4F57B61DDCB720004A0990 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4F57B51DDCB720004A0990 /* UIKit.framework */; };
+		8E4F57BC1DDCC375004A0990 /* ZYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F57BB1DDCC375004A0990 /* ZYTabBar.m */; };
+		8E4F57C01DDCD33A004A0990 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 8E4F57BF1DDCD33A004A0990 /* PodFile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		251866AC1FA542DD92BC927A /* libPods-NewWorldTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewWorldTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E17CDAF1DDC991900F51ED7 /* NewWorldTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewWorldTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E17CDB31DDC991900F51ED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E17CDB51DDC991900F51ED7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +60,12 @@
 		8E4F57B11DDCAEC9004A0990 /* UIImage+ZYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZYImage.h"; sourceTree = "<group>"; };
 		8E4F57B21DDCAEC9004A0990 /* UIImage+ZYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZYImage.m"; sourceTree = "<group>"; };
 		8E4F57B51DDCB720004A0990 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E4F57BA1DDCC375004A0990 /* ZYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabBar.h; sourceTree = "<group>"; };
+		8E4F57BB1DDCC375004A0990 /* ZYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBar.m; sourceTree = "<group>"; };
+		8E4F57BE1DDCC4C9004A0990 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8E4F57BF1DDCD33A004A0990 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		B9994DFFA7E3B808ABF94F54 /* Pods-NewWorldTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewWorldTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewWorldTime/Pods-NewWorldTime.debug.xcconfig"; sourceTree = "<group>"; };
+		FDAA55439F854E0FD6D9AA6F /* Pods-NewWorldTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewWorldTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewWorldTime/Pods-NewWorldTime.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E4F57B61DDCB720004A0990 /* UIKit.framework in Frameworks */,
+				3AA200203F2588A9F472E9AE /* libPods-NewWorldTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,14 +95,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C208A601650B67067E57F33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9994DFFA7E3B808ABF94F54 /* Pods-NewWorldTime.debug.xcconfig */,
+				FDAA55439F854E0FD6D9AA6F /* Pods-NewWorldTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8E17CDA61DDC991900F51ED7 = {
 			isa = PBXGroup;
 			children = (
+				8E4F57BF1DDCD33A004A0990 /* PodFile */,
 				8E17CDB11DDC991900F51ED7 /* NewWorldTime */,
 				8E17CDCB1DDC991900F51ED7 /* NewWorldTimeTests */,
 				8E17CDD61DDC991900F51ED7 /* NewWorldTimeUITests */,
 				8E17CDB01DDC991900F51ED7 /* Products */,
 				8E4F57B41DDCB71F004A0990 /* Frameworks */,
+				4C208A601650B67067E57F33 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				8E17CDB31DDC991900F51ED7 /* main.m */,
+				8E4F57BE1DDCC4C9004A0990 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -179,6 +202,9 @@
 		8E17CDEA1DDCA12800F51ED7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				8E4F57B91DDCC324004A0990 /* Controller */,
+				8E4F57B81DDCC31F004A0990 /* Model */,
+				8E4F57B71DDCC316004A0990 /* View */,
 				8E17CDB51DDC991900F51ED7 /* AppDelegate.h */,
 				8E17CDB61DDC991900F51ED7 /* AppDelegate.m */,
 				8E17CDBB1DDC991900F51ED7 /* Main.storyboard */,
@@ -201,8 +227,32 @@
 			isa = PBXGroup;
 			children = (
 				8E4F57B51DDCB720004A0990 /* UIKit.framework */,
+				251866AC1FA542DD92BC927A /* libPods-NewWorldTime.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4F57B71DDCC316004A0990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F57BA1DDCC375004A0990 /* ZYTabBar.h */,
+				8E4F57BB1DDCC375004A0990 /* ZYTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E4F57B81DDCC31F004A0990 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E4F57B91DDCC324004A0990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E17CDDC1DDC991900F51ED7 /* Build configuration list for PBXNativeTarget "NewWorldTime" */;
 			buildPhases = (
+				24A1F1760BC996A2B2A975FD /* [CP] Check Pods Manifest.lock */,
 				8E17CDAB1DDC991900F51ED7 /* Sources */,
 				8E17CDAC1DDC991900F51ED7 /* Frameworks */,
 				8E17CDAD1DDC991900F51ED7 /* Resources */,
+				F0FE9664DC7D828B8F5B2E73 /* [CP] Embed Pods Frameworks */,
+				CFF28ECFFB2E9355FFDF00FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -315,6 +368,7 @@
 			files = (
 				8E17CDC21DDC991900F51ED7 /* LaunchScreen.storyboard in Resources */,
 				8E17CDBF1DDC991900F51ED7 /* Assets.xcassets in Resources */,
+				8E4F57C01DDCD33A004A0990 /* PodFile in Resources */,
 				8E17CDBD1DDC991900F51ED7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +389,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24A1F1760BC996A2B2A975FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFF28ECFFB2E9355FFDF00FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewWorldTime/Pods-NewWorldTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0FE9664DC7D828B8F5B2E73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewWorldTime/Pods-NewWorldTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E17CDAB1DDC991900F51ED7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -343,6 +445,7 @@
 				8E4F57B31DDCAEC9004A0990 /* UIImage+ZYImage.m in Sources */,
 				8E17CDB71DDC991900F51ED7 /* AppDelegate.m in Sources */,
 				8E17CDB41DDC991900F51ED7 /* main.m in Sources */,
+				8E4F57BC1DDCC375004A0990 /* ZYTabBar.m in Sources */,
 				8E17CDF41DDCA67000F51ED7 /* ZYTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,10 +592,13 @@
 		};
 		8E17CDDD1DDC991900F51ED7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9994DFFA7E3B808ABF94F54 /* Pods-NewWorldTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XXRZJ9B3W5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NewWorldTime/PrefixHeader.pch;
 				INFOPLIST_FILE = NewWorldTime/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -503,10 +609,13 @@
 		};
 		8E17CDDE1DDC991900F51ED7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDAA55439F854E0FD6D9AA6F /* Pods-NewWorldTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XXRZJ9B3W5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NewWorldTime/PrefixHeader.pch;
 				INFOPLIST_FILE = NewWorldTime/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

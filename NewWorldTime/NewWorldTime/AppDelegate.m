@@ -16,13 +16,19 @@
 
 @implementation AppDelegate
 
+// 补充：控制器的view
+// UITabBarController控制器的view在一创建控制器的时候就会加载view
+// UIViewController的view，才是懒加载。
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     ZYTabBarController *tabBar = [[ZYTabBarController alloc] init];
     self.window.rootViewController = tabBar;
-    
+
+    // makeKeyAndVisible底层实现
+    // 1. application.keyWindow = self.window
+    // 2. self.window.hidden = NO;
     [self.window makeKeyAndVisible];
     return YES;
 }

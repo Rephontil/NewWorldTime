@@ -9,6 +9,7 @@
 #import "ZYTabBarController.h"
 #import "UIImage+ZYImage.h"
 #import <objc/objc-runtime.h>
+#import "ZYTabBar.h"
 
 @interface ZYTabBarController ()
 
@@ -19,6 +20,7 @@
 +(void)load
 {
 
+    
 }
 
 //当程序调用调用当前这个类或者其子类的时候调用这个方法
@@ -33,13 +35,23 @@
 
 }
 
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-
     [self setUpTabBarController];
 
+//    self.view.backgroundColor = [UIColor greenColor];
 
+    
+    ZYTabBar *tabBar = [[ZYTabBar alloc] initWithFrame:self.tabBar.frame];
+    [self setValue:tabBar forKeyPath:@"tabBar"];
+    ZYLog(@"%@---->%@",self.tabBar, self.tabBar.subviews);
 
 }
 
@@ -47,9 +59,20 @@
 {
     UIViewController *VC1 = [[UIViewController alloc] init];
     [self setUpChildViewController:VC1 withBadgeValue:@"9" normalImageName:@"tabbar_home" selectedImageName:@"tabbar_home_selected" withTitle:@"首页"];
+    VC1.view.backgroundColor = [UIColor redColor];
 
     UIViewController *VC2 = [[UIViewController alloc] init];
-    [self setUpChildViewController:VC2 withBadgeValue:@"-4" normalImageName:@"tabbar_discover" selectedImageName:@"tabbar_discover_selected" withTitle:@"消息"];
+    [self setUpChildViewController:VC2 withBadgeValue:@"-4" normalImageName:@"tabbar_message_center" selectedImageName:@"tabbar_message_center_selected" withTitle:@"消息"];
+    VC2.view.backgroundColor = [UIColor orangeColor];
+
+    UIViewController *VC3 = [[UIViewController alloc] init];
+    [self setUpChildViewController:VC3 withBadgeValue:@"-4" normalImageName:@"tabbar_discover" selectedImageName:@"tabbar_discover_selected" withTitle:@"发现"];
+    VC3.view.backgroundColor = [UIColor cyanColor];
+
+    UIViewController *VC4 = [[UIViewController alloc] init];
+    [self setUpChildViewController:VC4 withBadgeValue:@"7" normalImageName:@"tabbar_profile" selectedImageName:@"tabbar_profile_selected" withTitle:@"我"];
+    VC4.view.backgroundColor = [UIColor purpleColor];
+
 
 }
 
