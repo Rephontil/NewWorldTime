@@ -8,6 +8,7 @@
 
 #import "ZYTabBarController.h"
 #import "UIImage+ZYImage.h"
+#import <objc/objc-runtime.h>
 
 @interface ZYTabBarController ()
 
@@ -37,6 +38,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
 
     [self setUpTabBarController];
+
+
 
 }
 
