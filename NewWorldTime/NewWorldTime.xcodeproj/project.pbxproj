@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3AA200203F2588A9F472E9AE /* libPods-NewWorldTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 251866AC1FA542DD92BC927A /* libPods-NewWorldTime.a */; };
-		8E17CDB41DDC991900F51ED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17CDB31DDC991900F51ED7 /* main.m */; };
-		8E17CDB71DDC991900F51ED7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17CDB61DDC991900F51ED7 /* AppDelegate.m */; };
 		8E17CDBD1DDC991900F51ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E17CDBB1DDC991900F51ED7 /* Main.storyboard */; };
 		8E17CDBF1DDC991900F51ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E17CDBE1DDC991900F51ED7 /* Assets.xcassets */; };
 		8E17CDC21DDC991900F51ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E17CDC01DDC991900F51ED7 /* LaunchScreen.storyboard */; };
 		8E17CDCD1DDC991900F51ED7 /* NewWorldTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17CDCC1DDC991900F51ED7 /* NewWorldTimeTests.m */; };
 		8E17CDD81DDC991900F51ED7 /* NewWorldTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17CDD71DDC991900F51ED7 /* NewWorldTimeUITests.m */; };
-		8E17CDF41DDCA67000F51ED7 /* ZYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17CDF31DDCA67000F51ED7 /* ZYTabBarController.m */; };
 		8E4F57B31DDCAEC9004A0990 /* UIImage+ZYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F57B21DDCAEC9004A0990 /* UIImage+ZYImage.m */; };
 		8E4F57B61DDCB720004A0990 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4F57B51DDCB720004A0990 /* UIKit.framework */; };
 		8E4F57BC1DDCC375004A0990 /* ZYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F57BB1DDCC375004A0990 /* ZYTabBar.m */; };
 		8E4F57C01DDCD33A004A0990 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 8E4F57BF1DDCD33A004A0990 /* PodFile */; };
+		8EAB14281DDCD7510029E51C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB14271DDCD7510029E51C /* main.m */; };
+		8EAB142B1DDCD8290029E51C /* ZYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB142A1DDCD8290029E51C /* ZYTabBarController.m */; };
+		8EAB142E1DDCD8430029E51C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB142D1DDCD8430029E51C /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,6 @@
 /* Begin PBXFileReference section */
 		251866AC1FA542DD92BC927A /* libPods-NewWorldTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewWorldTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E17CDAF1DDC991900F51ED7 /* NewWorldTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewWorldTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E17CDB31DDC991900F51ED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8E17CDB51DDC991900F51ED7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		8E17CDB61DDC991900F51ED7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		8E17CDBC1DDC991900F51ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E17CDBE1DDC991900F51ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E17CDC11DDC991900F51ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +52,6 @@
 		8E17CDD31DDC991900F51ED7 /* NewWorldTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewWorldTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E17CDD71DDC991900F51ED7 /* NewWorldTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewWorldTimeUITests.m; sourceTree = "<group>"; };
 		8E17CDD91DDC991900F51ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E17CDF21DDCA67000F51ED7 /* ZYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabBarController.h; sourceTree = "<group>"; };
-		8E17CDF31DDCA67000F51ED7 /* ZYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBarController.m; sourceTree = "<group>"; };
 		8E4F57B11DDCAEC9004A0990 /* UIImage+ZYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZYImage.h"; sourceTree = "<group>"; };
 		8E4F57B21DDCAEC9004A0990 /* UIImage+ZYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZYImage.m"; sourceTree = "<group>"; };
 		8E4F57B51DDCB720004A0990 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -64,6 +59,11 @@
 		8E4F57BB1DDCC375004A0990 /* ZYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBar.m; sourceTree = "<group>"; };
 		8E4F57BE1DDCC4C9004A0990 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8E4F57BF1DDCD33A004A0990 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		8EAB14271DDCD7510029E51C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EAB14291DDCD8290029E51C /* ZYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabBarController.h; sourceTree = "<group>"; };
+		8EAB142A1DDCD8290029E51C /* ZYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBarController.m; sourceTree = "<group>"; };
+		8EAB142C1DDCD8430029E51C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EAB142D1DDCD8430029E51C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B9994DFFA7E3B808ABF94F54 /* Pods-NewWorldTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewWorldTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewWorldTime/Pods-NewWorldTime.debug.xcconfig"; sourceTree = "<group>"; };
 		FDAA55439F854E0FD6D9AA6F /* Pods-NewWorldTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewWorldTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewWorldTime/Pods-NewWorldTime.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 		8E17CDB21DDC991900F51ED7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8E17CDB31DDC991900F51ED7 /* main.m */,
 				8E4F57BE1DDCC4C9004A0990 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
@@ -203,13 +202,10 @@
 			isa = PBXGroup;
 			children = (
 				8E4F57B91DDCC324004A0990 /* Controller */,
-				8E4F57B81DDCC31F004A0990 /* Model */,
 				8E4F57B71DDCC316004A0990 /* View */,
-				8E17CDB51DDC991900F51ED7 /* AppDelegate.h */,
-				8E17CDB61DDC991900F51ED7 /* AppDelegate.m */,
+				8E4F57B81DDCC31F004A0990 /* Model */,
+				8EAB14261DDCD7510029E51C /* Other */,
 				8E17CDBB1DDC991900F51ED7 /* Main.storyboard */,
-				8E17CDF21DDCA67000F51ED7 /* ZYTabBarController.h */,
-				8E17CDF31DDCA67000F51ED7 /* ZYTabBarController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -251,8 +247,20 @@
 		8E4F57B91DDCC324004A0990 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8EAB14291DDCD8290029E51C /* ZYTabBarController.h */,
+				8EAB142A1DDCD8290029E51C /* ZYTabBarController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		8EAB14261DDCD7510029E51C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB142C1DDCD8430029E51C /* AppDelegate.h */,
+				8EAB142D1DDCD8430029E51C /* AppDelegate.m */,
+				8EAB14271DDCD7510029E51C /* main.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,11 +450,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EAB14281DDCD7510029E51C /* main.m in Sources */,
 				8E4F57B31DDCAEC9004A0990 /* UIImage+ZYImage.m in Sources */,
-				8E17CDB71DDC991900F51ED7 /* AppDelegate.m in Sources */,
-				8E17CDB41DDC991900F51ED7 /* main.m in Sources */,
+				8EAB142B1DDCD8290029E51C /* ZYTabBarController.m in Sources */,
 				8E4F57BC1DDCC375004A0990 /* ZYTabBar.m in Sources */,
-				8E17CDF41DDCA67000F51ED7 /* ZYTabBarController.m in Sources */,
+				8EAB142E1DDCD8430029E51C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
