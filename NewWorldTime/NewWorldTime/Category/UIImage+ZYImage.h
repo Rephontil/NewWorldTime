@@ -18,4 +18,12 @@
  */
 + (UIImage *)imageWithRenderingModelAlwaysOriginalWithImageName:(NSString *)imageName;
 
+/**
+ 一张非矩形的小图片在被拉伸的时候，保证图片的边角不要变形。
+ ·
+ @param imageName 要被拉伸的图片
+ @return 边角没有变形的拉伸图片
+ */
++ (instancetype)imageWithStretchableName:(NSString *)imageName;
+
 @end

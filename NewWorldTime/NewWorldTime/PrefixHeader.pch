@@ -9,6 +9,12 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import "UIView+ZYFrame.h"
+
+#define K_SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+#define K_SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
+
 #ifdef DEBUG
 #define ZYLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
 #else

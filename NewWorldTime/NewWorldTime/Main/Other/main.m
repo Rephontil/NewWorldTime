@@ -15,7 +15,7 @@
 // 4.加载info.plist文件，判断下info.plist文件里面有木有指定main.storyboard，如果指定，就会去加载main.storyboard
 
 // main.storyboard
-// 1.初始化窗口
+// 1.初始化窗口		
 // 2.加载storyboard文件,并且创建箭头指向的控制器
 // 3.把新创建的控制器作为窗口的跟控制器，让窗口现实
 int main(int argc, char * argv[]) {
