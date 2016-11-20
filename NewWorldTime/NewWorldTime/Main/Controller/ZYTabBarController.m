@@ -2,8 +2,8 @@
 //  ZYTabBarController.m
 //  NewWorldTime
 //
-//  Created by ZhouYong on 16/11/16.
-//  Copyright © 2016年 ZhouYong. All rights reserved.
+//  Created by ZhouYong on 15/11/16.
+//  Copyright © 2015年 ZhouYong. All rights reserved.
 //
 
 #import "ZYTabBarController.h"
@@ -12,6 +12,7 @@
 #import "ZYTabBar.h"
 #import "ZYDiscoverTableViewController.h"
 #import "ZYNavigationController.h"
+#import "ZYHomeTableViewController.h"
 
 @interface ZYTabBarController ()
 
@@ -58,7 +59,7 @@
 
 - (void)setUpTabBarController
 {
-    UIViewController *VC1 = [[UIViewController alloc] init];
+    ZYHomeTableViewController *VC1 = [[ZYHomeTableViewController alloc] init];
     [self setUpChildViewController:VC1 withBadgeValue:@"9" normalImageName:@"tabbar_home" selectedImageName:@"tabbar_home_selected" withTitle:@"首页"];
     VC1.view.backgroundColor = [UIColor whiteColor];
 

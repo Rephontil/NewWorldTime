@@ -2,8 +2,8 @@
 //  UIImage+ZYImage.m
 //  NewWorldTime
 //
-//  Created by ZhouYong on 16/11/16.
-//  Copyright © 2016年 ZhouYong. All rights reserved.
+//  Created by ZhouYong on 15/1/16.
+//  Copyright © 2015年 ZhouYong. All rights reserved.
 //
 
 #import "UIImage+ZYImage.h"

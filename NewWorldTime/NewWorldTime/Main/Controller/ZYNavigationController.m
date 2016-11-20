@@ -2,8 +2,8 @@
 //  ZYNavigationController.m
 //  NewWorldTime
 //
-//  Created by ZhouYong on 16/11/19.
-//  Copyright © 2016年 ZhouYong. All rights reserved.
+//  Created by ZhouYong on 15/11/19.
+//  Copyright © 2015年 ZhouYong. All rights reserved.
 //
 
 #import "ZYNavigationController.h"
@@ -13,6 +13,10 @@
 @end
 
 @implementation ZYNavigationController
+
+//// 左边
+//self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithImage:[UIImage imageNamed:@"navigationbar_friendsearch"] highImage:[UIImage imageNamed:@"navigationbar_friendsearch_highlighted"] target:self action:@selector(friendsearch) forControlEvents:UIControlEventTouchUpInside];
+//
 
 
 + (void)initialize

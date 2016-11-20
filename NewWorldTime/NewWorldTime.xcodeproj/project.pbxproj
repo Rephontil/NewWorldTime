@@ -17,6 +17,9 @@
 		8E4F57B61DDCB720004A0990 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4F57B51DDCB720004A0990 /* UIKit.framework */; };
 		8E4F57BC1DDCC375004A0990 /* ZYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F57BB1DDCC375004A0990 /* ZYTabBar.m */; };
 		8E4F57C01DDCD33A004A0990 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 8E4F57BF1DDCD33A004A0990 /* PodFile */; };
+		8E623B881DE1A812004EF094 /* ZYTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E623B871DE1A812004EF094 /* ZYTitleButton.m */; };
+		8E623B8B1DE1AFC7004EF094 /* ZYPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E623B8A1DE1AFC7004EF094 /* ZYPopMenu.m */; };
+		8E623B8E1DE1C485004EF094 /* ZYCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E623B8D1DE1C485004EF094 /* ZYCover.m */; };
 		8E6D9D271DDFF45300B8EBA8 /* ZYSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6D9D261DDFF45300B8EBA8 /* ZYSearchBar.m */; };
 		8E6D9D2A1DDFF75A00B8EBA8 /* UIView+ZYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6D9D291DDFF75A00B8EBA8 /* UIView+ZYFrame.m */; };
 		8E6D9D2D1DDFFAA900B8EBA8 /* ZYDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6D9D2C1DDFFAA900B8EBA8 /* ZYDiscoverTableViewController.m */; };
@@ -25,6 +28,9 @@
 		8EAB14281DDCD7510029E51C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB14271DDCD7510029E51C /* main.m */; };
 		8EAB142B1DDCD8290029E51C /* ZYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB142A1DDCD8290029E51C /* ZYTabBarController.m */; };
 		8EAB142E1DDCD8430029E51C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB142D1DDCD8430029E51C /* AppDelegate.m */; };
+		8ECD472D1DE0B0E9001B8534 /* ZYHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECD472C1DE0B0E9001B8534 /* ZYHomeTableViewController.m */; };
+		8ECD47301DE0B136001B8534 /* ZYAssistantTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECD472F1DE0B136001B8534 /* ZYAssistantTableViewController.m */; };
+		8ECD47361DE0B50B001B8534 /* UIBarButtonItem+ZYBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECD47351DE0B50B001B8534 /* UIBarButtonItem+ZYBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,12 @@
 		8E4F57BB1DDCC375004A0990 /* ZYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBar.m; sourceTree = "<group>"; };
 		8E4F57BE1DDCC4C9004A0990 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8E4F57BF1DDCD33A004A0990 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		8E623B861DE1A812004EF094 /* ZYTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTitleButton.h; sourceTree = "<group>"; };
+		8E623B871DE1A812004EF094 /* ZYTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTitleButton.m; sourceTree = "<group>"; };
+		8E623B891DE1AFC7004EF094 /* ZYPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPopMenu.h; sourceTree = "<group>"; };
+		8E623B8A1DE1AFC7004EF094 /* ZYPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPopMenu.m; sourceTree = "<group>"; };
+		8E623B8C1DE1C485004EF094 /* ZYCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCover.h; sourceTree = "<group>"; };
+		8E623B8D1DE1C485004EF094 /* ZYCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCover.m; sourceTree = "<group>"; };
 		8E6D9D251DDFF45300B8EBA8 /* ZYSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSearchBar.h; sourceTree = "<group>"; };
 		8E6D9D261DDFF45300B8EBA8 /* ZYSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSearchBar.m; sourceTree = "<group>"; };
 		8E6D9D281DDFF75A00B8EBA8 /* UIView+ZYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYFrame.h"; sourceTree = "<group>"; };
@@ -79,6 +91,12 @@
 		8EAB142A1DDCD8290029E51C /* ZYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBarController.m; sourceTree = "<group>"; };
 		8EAB142C1DDCD8430029E51C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8EAB142D1DDCD8430029E51C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8ECD472B1DE0B0E9001B8534 /* ZYHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHomeTableViewController.h; sourceTree = "<group>"; };
+		8ECD472C1DE0B0E9001B8534 /* ZYHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHomeTableViewController.m; sourceTree = "<group>"; };
+		8ECD472E1DE0B136001B8534 /* ZYAssistantTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAssistantTableViewController.h; sourceTree = "<group>"; };
+		8ECD472F1DE0B136001B8534 /* ZYAssistantTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAssistantTableViewController.m; sourceTree = "<group>"; };
+		8ECD47341DE0B50B001B8534 /* UIBarButtonItem+ZYBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZYBarButtonItem.h"; sourceTree = "<group>"; };
+		8ECD47351DE0B50B001B8534 /* UIBarButtonItem+ZYBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZYBarButtonItem.m"; sourceTree = "<group>"; };
 		B9994DFFA7E3B808ABF94F54 /* Pods-NewWorldTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewWorldTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewWorldTime/Pods-NewWorldTime.debug.xcconfig"; sourceTree = "<group>"; };
 		FDAA55439F854E0FD6D9AA6F /* Pods-NewWorldTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewWorldTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewWorldTime/Pods-NewWorldTime.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -246,6 +264,8 @@
 			children = (
 				8E6D9D311DE0633400B8EBA8 /* UIViewController+ZYExamine.h */,
 				8E6D9D321DE0633400B8EBA8 /* UIViewController+ZYExamine.m */,
+				8ECD47341DE0B50B001B8534 /* UIBarButtonItem+ZYBarButtonItem.h */,
+				8ECD47351DE0B50B001B8534 /* UIBarButtonItem+ZYBarButtonItem.m */,
 				8E6D9D281DDFF75A00B8EBA8 /* UIView+ZYFrame.h */,
 				8E6D9D291DDFF75A00B8EBA8 /* UIView+ZYFrame.m */,
 				8E4F57B11DDCAEC9004A0990 /* UIImage+ZYImage.h */,
@@ -353,6 +373,10 @@
 		8E6D9D1D1DDFE71100B8EBA8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8ECD472B1DE0B0E9001B8534 /* ZYHomeTableViewController.h */,
+				8ECD472C1DE0B0E9001B8534 /* ZYHomeTableViewController.m */,
+				8ECD472E1DE0B136001B8534 /* ZYAssistantTableViewController.h */,
+				8ECD472F1DE0B136001B8534 /* ZYAssistantTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -374,6 +398,12 @@
 		8E6D9D201DDFE71100B8EBA8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8E623B861DE1A812004EF094 /* ZYTitleButton.h */,
+				8E623B871DE1A812004EF094 /* ZYTitleButton.m */,
+				8E623B891DE1AFC7004EF094 /* ZYPopMenu.h */,
+				8E623B8A1DE1AFC7004EF094 /* ZYPopMenu.m */,
+				8E623B8C1DE1C485004EF094 /* ZYCover.h */,
+				8E623B8D1DE1C485004EF094 /* ZYCover.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -603,15 +633,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E623B8E1DE1C485004EF094 /* ZYCover.m in Sources */,
+				8ECD47361DE0B50B001B8534 /* UIBarButtonItem+ZYBarButtonItem.m in Sources */,
 				8E6D9D271DDFF45300B8EBA8 /* ZYSearchBar.m in Sources */,
 				8EAB14281DDCD7510029E51C /* main.m in Sources */,
 				8E6D9D331DE0633400B8EBA8 /* UIViewController+ZYExamine.m in Sources */,
 				8E4F57B31DDCAEC9004A0990 /* UIImage+ZYImage.m in Sources */,
 				8E6D9D2D1DDFFAA900B8EBA8 /* ZYDiscoverTableViewController.m in Sources */,
+				8E623B8B1DE1AFC7004EF094 /* ZYPopMenu.m in Sources */,
 				8E6D9D2A1DDFF75A00B8EBA8 /* UIView+ZYFrame.m in Sources */,
+				8E623B881DE1A812004EF094 /* ZYTitleButton.m in Sources */,
 				8EAB142B1DDCD8290029E51C /* ZYTabBarController.m in Sources */,
 				8E4F57BC1DDCC375004A0990 /* ZYTabBar.m in Sources */,
 				8EAB142E1DDCD8430029E51C /* AppDelegate.m in Sources */,
+				8ECD472D1DE0B0E9001B8534 /* ZYHomeTableViewController.m in Sources */,
+				8ECD47301DE0B136001B8534 /* ZYAssistantTableViewController.m in Sources */,
 				8E6D9D301DE061BD00B8EBA8 /* ZYNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

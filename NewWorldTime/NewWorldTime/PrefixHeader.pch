@@ -10,9 +10,14 @@
 #define PrefixHeader_pch
 
 #import "UIView+ZYFrame.h"
+#import "UIBarButtonItem+ZYBarButtonItem.h"
 
+#pragma mark  全局的window宽度、高度
 #define K_SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
 #define K_SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
+#pragma mark  全局的window窗口
+#define ZYKeyWindow [UIApplication sharedApplication].keyWindow
 
 
 #ifdef DEBUG
