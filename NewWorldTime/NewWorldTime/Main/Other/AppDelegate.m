@@ -25,6 +25,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     ZYTabBarController *tabBar = [[ZYTabBarController alloc] init];
     self.window.rootViewController = tabBar;
+    self.window.backgroundColor = [UIColor whiteColor];
 
     // makeKeyAndVisible底层实现
     // 1. application.keyWindow = self.window

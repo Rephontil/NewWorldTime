@@ -41,6 +41,13 @@ static NSString * const reuseHomeTableViewCellID = @"cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setUpNavigationBar];
+
+
+}
+
+- (void)setUpNavigationBar
+{
     // 左边
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithImage:[UIImage imageNamed:@"navigationbar_friendsearch"] highImage:[UIImage imageNamed:@"navigationbar_friendsearch_highlighted"] target:self action:@selector(friendsearch) forControlEvents:UIControlEventTouchUpInside];
 
@@ -54,9 +61,9 @@ static NSString * const reuseHomeTableViewCellID = @"cell";
     [_titleButton setImage:[UIImage imageNamed:@"navigationbar_arrow_up"] forState:UIControlStateSelected];
     [_titleButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
 
-    _titleButton.adjustsImageWhenHighlighted = NO;
+    self.titleButton.adjustsImageWhenHighlighted = NO;
+    _titleButton.adjustsImageWhenDisabled = NO;
     self.navigationItem.titleView = _titleButton;
-
 
 }
 
@@ -67,7 +74,7 @@ static NSString * const reuseHomeTableViewCellID = @"cell";
 
 - (void)pop
 {
-    [_titleButton setImage:nil forState:UIControlStateNormal];
+
 
 }
 
@@ -78,7 +85,6 @@ static NSString * const reuseHomeTableViewCellID = @"cell";
     ZYCover *cover = [ZYCover show];
     cover.delegate = self;
 
-
     // 弹出pop菜单
     CGFloat popW = 200;
     CGFloat popX = (self.view.width - 200) * 0.5;
@@ -88,7 +94,6 @@ static NSString * const reuseHomeTableViewCellID = @"cell";
     menu.contentView = self.assistantTBVC.view;
 
 }
-
 - (void)coverDidClickCover:(ZYCover *)cover
 {
     [ZYPopMenu hide];
