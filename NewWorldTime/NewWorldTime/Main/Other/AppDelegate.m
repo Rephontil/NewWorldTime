@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ZYTabBarController.h"
+#import "ZYNewFeatureController.h"
 
 
 @interface AppDelegate ()
@@ -16,6 +17,8 @@
 
 @implementation AppDelegate
 
+static NSString *ZYVersionKey = @"CFBundleVersion";
+
 // 补充：控制器的view
 // UITabBarController控制器的view在一创建控制器的时候就会加载view
 // UIViewController的view，才是懒加载。
@@ -23,15 +26,30 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    ZYTabBarController *tabBar = [[ZYTabBarController alloc] init];
-    self.window.rootViewController = tabBar;
     self.window.backgroundColor = [UIColor whiteColor];
+
+    NSString *currentVersionString = [NSBundle mainBundle].infoDictionary[@"CFBundleVersion"];
+
+    NSString *formalVersionString = [[NSUserDefaults standardUserDefaults] objectForKey:ZYVersionKey];
+
+    if ([currentVersionString isEqualToString:formalVersionString]) {
+
+        ZYTabBarController *tabBar = [[ZYTabBarController alloc] init];
+        self.window.rootViewController = tabBar;
+    }else{
+        ZYNewFeatureController *newFeatureVC = [[ZYNewFeatureController alloc] init];
+        self.window.rootViewController = newFeatureVC;
+//        [[NSUserDefaults standardUserDefaults] setObject:currentVersionString forKey:ZYVersionKey];
+
+    }
 
     // makeKeyAndVisible底层实现
     // 1. application.keyWindow = self.window
     // 2. self.window.hidden = NO;
     [self.window makeKeyAndVisible];
     return YES;
+
+
 }
 
 
